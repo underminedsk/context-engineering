@@ -38,3 +38,65 @@ Parking lot for workshop ideas. Each section is a candidate concept; decisions g
 - Multi-LLM output, or Claude-first?
 - Live vs. take-home (or both)?
 - Is the website on the critical path for the webinar, or strictly post-event?
+
+---
+
+## Software Factory Frameworks → Other Domains
+
+**Core idea.** Look at the software-factory frameworks emerging in 2024–2026 (Garry Tan's GStack, Cognition/Devin's research→plan→implement loop, Factory.ai, 12-Factor Agents, Anthropic's skills+sub-agents pattern, Cole Medin's PRP workflow) and ask: *which of these productize for non-engineering domains?*
+
+This might be the **spine of the workshop**, not just a topic. The user's original framing — "SE has gone further on context engineering than most fields; let's translate" — is exactly this. Naming concrete frameworks gives it teeth.
+
+**Candidates to study and translate.**
+- **GStack (Garry Tan / YC-adjacent):** verify specifics before using. Most likely refers to a recommended AI-era stack for solo / small-team product building. The translation target is *how it composes tooling*, not the specific tools.
+- **12-Factor Agents (Dex Horthy):** already a manifesto. Several factors translate directly to non-SE knowledge work (own your prompts, own your context, evals, observability).
+- **Research → Plan → Implement loop:** universally applicable. Any structured knowledge task — legal memo, market analysis, policy brief, lesson plan — benefits from this scaffolding.
+- **PRP / spec-driven workflow (Cole Medin):** writing the spec *before* the work. Already standard in design and law; framing it as context engineering connects the dots.
+- **Meta-skills / skill libraries (Anthropic):** see the Skill Builder section above.
+- **Sub-agents / orchestration:** the practice of decomposing a hard problem into specialized roles. Translates to consulting, research synthesis, editorial workflows.
+
+**Cross-domain examples to develop.**
+- Lawyer: research → memo → opposition prep, each as a "skill" with its own context recipe.
+- Consultant: discovery → analysis → deliverable, with reusable skills per industry.
+- Educator: lesson planning → materials → assessment, each templated.
+- Researcher: lit review → synthesis → write-up, with sub-agent-style decomposition.
+
+**Pedagogical move.** Don't just list the frameworks — show one being applied to a non-SE problem live. This is where "we already do this in SE" becomes "and here's what it looks like for you."
+
+**Open questions.**
+- Pick one framework to go deep on, or sample across?
+- Is GStack the right named anchor, or substitute something more canonical (12-Factor Agents has more depth, more public material)?
+- How much do we name the SE origin vs. just teach the practice? Naming it gives credibility; over-naming alienates the non-SE audience.
+
+---
+
+## Connectors as a Core Workshop Topic
+
+**Core idea.** Teach connectors (Claude Connectors, ChatGPT Connectors, Custom GPT Actions, Notion AI integrations, Gemini extensions) as a first-class context engineering technique. The user doesn't need to know "MCP" as a protocol — they need to know that connectors are how you (a) get the right context into the model and (b) give the model tools to operate on external systems.
+
+**Why it belongs in the workshop.**
+- Connectors map directly to Lance Martin's **Select** strategy: pulling in external context (calendar, docs, email) and tools.
+- For non-engineers, this is the single highest-leverage context-engineering move they can make today without code. Connecting Claude to Google Drive or ChatGPT to GitHub *immediately* transforms what the model can do for them.
+- Bridges the gap between "I type into a chatbot" and "I have a system that does work for me" — the conceptual leap the workshop is trying to teach.
+
+**How to frame it (non-technical).**
+- "Your LLM doesn't have to be limited to what's in its training. You can plug it into your calendar, your documents, your email, your bug tracker — and it can both read from and act on them."
+- Don't introduce MCP by name unless someone asks. Frame as "connectors" or "tools" depending on the LLM.
+- Acknowledge the standard exists ("there's a protocol called MCP that makes this work across different AI tools") for the curious, then move on.
+
+**Concrete demos / examples to choose from.**
+- Claude + Google Drive: ask about your own docs.
+- Claude + Gmail: triage email by your own criteria.
+- ChatGPT + GitHub connector for the coding-curious.
+- Custom GPT with an Action calling a real API.
+- Notion AI summarizing across a workspace.
+
+**Risks.**
+- Connector availability differs across LLMs and changes monthly. Pick examples that have been stable.
+- Privacy / data-handling questions will come up. Have a clear answer ready.
+- Don't get sucked into a debugging demo if a connector fails live — have a recorded backup.
+
+**Open questions.**
+- Live connector demo vs. screen-recorded walkthrough?
+- One deep example (Drive + Calendar) vs. a montage of five?
+- Where in the arc — early (as motivation) or late (as the "now go further" capstone)?

@@ -3,7 +3,11 @@
 **Date:** May 2026
 **Context:** Foundation research before designing a 60–90 min webinar on context engineering for a mixed-experience audience (general curious + intermediate LLM users).
 
-This document synthesizes findings from four parallel research streams. Full detail in `01-definitions-and-framings.md`, `02-resources-bibliography.md`, `03-similar-workshops.md`, `04-context-vs-prompt-engineering.md`.
+This document synthesizes findings from four parallel research streams. Full detail in:
+- [01 — Definitions and framings](01-definitions-and-framings.md)
+- [02 — Resources bibliography](02-resources-bibliography.md)
+- [03 — Similar workshops](03-similar-workshops.md)
+- [04 — Context vs prompt engineering](04-context-vs-prompt-engineering.md)
 
 ---
 

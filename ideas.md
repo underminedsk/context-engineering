@@ -48,12 +48,19 @@ Parking lot for workshop ideas. Each section is a candidate concept; decisions g
 This might be the **spine of the workshop**, not just a topic. The user's original framing — "SE has gone further on context engineering than most fields; let's translate" — is exactly this. Naming concrete frameworks gives it teeth.
 
 **Candidates to study and translate.**
-- **GStack (Garry Tan / YC-adjacent):** verify specifics before using. Most likely refers to a recommended AI-era stack for solo / small-team product building. The translation target is *how it composes tooling*, not the specific tools.
+- **GStack (Garry Tan, YC CEO):** the headline example. Open-sourced personal Claude Code configuration. 23 opinionated skills that play roles — CEO, Designer, Eng Manager, Release Manager, Doc Engineer, QA — plus workflow skills for plan review, code review, one-command shipping, browser automation, QA testing, retrospectives. 89.7K GitHub stars in under two months. Tan averaged 10K LOC and 100 PRs/week, claims ~810× his 2013 pace. Design philosophy: *opinionated prompts, not custom tooling, are the right abstraction layer for AI-assisted development*. Each step inherits context from the previous — review gates, QA, release checks. Repo: https://github.com/garrytan/gstack.
 - **12-Factor Agents (Dex Horthy):** already a manifesto. Several factors translate directly to non-SE knowledge work (own your prompts, own your context, evals, observability).
 - **Research → Plan → Implement loop:** universally applicable. Any structured knowledge task — legal memo, market analysis, policy brief, lesson plan — benefits from this scaffolding.
 - **PRP / spec-driven workflow (Cole Medin):** writing the spec *before* the work. Already standard in design and law; framing it as context engineering connects the dots.
 - **Meta-skills / skill libraries (Anthropic):** see the Skill Builder section above.
 - **Sub-agents / orchestration:** the practice of decomposing a hard problem into specialized roles. Translates to consulting, research synthesis, editorial workflows.
+
+**Why GStack is the right primary anchor.**
+- Credible non-hyperbolic source (YC's CEO).
+- Concrete and copyable (it's a repo, not a philosophy).
+- The 23-skills-as-roles structure is a near-perfect template for translation — every non-SE domain has a parallel set of roles.
+- The performance number is workshop-grade hook material: *"Garry Tan, the CEO of Y Combinator, is shipping ~10K lines of code per week using a system he calls GStack. He's not writing the code — he's engineering the context. That's what we're going to learn today."*
+- Visual: showing the actual roles directory in the repo (CEO, Designer, Eng Manager, QA…) makes the abstraction concrete in five seconds.
 
 **Cross-domain examples to develop.**
 - Lawyer: research → memo → opposition prep, each as a "skill" with its own context recipe.
@@ -64,9 +71,9 @@ This might be the **spine of the workshop**, not just a topic. The user's origin
 **Pedagogical move.** Don't just list the frameworks — show one being applied to a non-SE problem live. This is where "we already do this in SE" becomes "and here's what it looks like for you."
 
 **Open questions.**
-- Pick one framework to go deep on, or sample across?
-- Is GStack the right named anchor, or substitute something more canonical (12-Factor Agents has more depth, more public material)?
+- Lead with GStack and reference others briefly, or sample across? Leaning GStack-first now that we have the details.
 - How much do we name the SE origin vs. just teach the practice? Naming it gives credibility; over-naming alienates the non-SE audience.
+- Do we show the GStack repo on screen, or recreate a simplified version for the demo? Real repo is more credible; recreation is more on-message for non-engineers.
 
 ---
 

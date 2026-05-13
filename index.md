@@ -4,9 +4,17 @@ title: Context Engineering Workshop — Research
 
 # Context Engineering Workshop
 
-Foundation research for a 60–90 min webinar on context engineering for a mixed-experience audience (general curious + intermediate LLM users).
+Foundation research and design for a 60–90 min webinar on context engineering for a mixed-experience knowledge-worker audience.
 
-## Read in this order
+## Design
+
+- **[Workshop v1 design notes](design/01-workshop-v1.md)** — spine example (email campaign builder), arc sketch, open questions
+
+## Ideas / Brainstorm
+
+- **[Ideas parking lot](ideas.md)** — skill builder takeaway, software factory frameworks, connectors & MCP
+
+## Research
 
 1. **[Synthesis](research/00-synthesis.md)** — start here. TL;DR, the working definition, the gap to play in, open design questions.
 2. [Definitions and framings](research/01-definitions-and-framings.md) — origin, canonical quotes, component view, tensions
